@@ -1,0 +1,118 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: cornflowerblue; 
+}
+li {
+    float: left;
+    
+}
+li a {
+    display: block; 
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: dimgray;
+    color: rgb(0, 0, 0);
+} 
+.heading {
+    font-family: sans-serif;
+    font-size: larger; color:cornflowerblue;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    text-decoration-line: underline;
+}
+.heading:hover { font-family: cursive;
+    font-size: larger; color: blue;
+    text-decoration-color: black;
+    text-decoration-style:solid;
+    text-decoration-line:overline;
+
+}
+.images {
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: groove;
+    border-width: 10px;
+    padding: 10px;
+
+}
+.images:hover {
+    height: 450px;
+    width: 450px;
+    border-radius: 5px;
+    border-color:(255, 248, 248);
+    border-style:dashed;
+    border-width: 12px;
+    padding: 5px;
+
+
+}
+.content 
+{
+    color: darkmagenta;
+    font-family: serif;
+    font-size: larger;
+}
+.content:hover {
+    color: black;
+    font-family:sans-serif;
+    font-size: large;
+}
+body {
+    background-image: url("https://thumbs.gfycat.com/HilariousHorribleKakarikis-max-1mb.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one {
+    height:200px;
+    width: 25%;
+    float: left;
+    background-color: white;
+    background-image:repeating-linear-gradient(crimson,black 10%, darkmagenta 20%);
+}
+.q  { 
+    color: crimson;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 80px;
+    text-decoration: none;
+}
+.two {
+    height: 200px;
+    width: 25%;
+    float: right;
+    background-color: white;
+    background-image:repeating-linear-gradient(crimson,black 10%, darkmagenta 20%);
+}
+.qi {
+    height: 100px;
+    width: 100px;
+    padding-top: 75px;
+}
+.three {
+    height: 200px;
+    width: 25%;
+    float: left;
+    margin-top: 300px;
+    margin-left: 0px;
+    background-color: white;
+    background-image:repeating-linear-gradient(crimson,black 10%, darkmagenta 20%);
+}
+
+.four {
+    height: 200px;
+    width: 25%;
+    float: right;
+    margin-top: 300px;
+    background-color: white;
+    background-image:repeating-linear-gradient(crimson,black 10%, darkmagenta 20%);
+}
